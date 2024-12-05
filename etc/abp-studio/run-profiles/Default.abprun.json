@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "AbpSolution1.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44342",
+      "path": "../../../src/AbpSolution1.Web/AbpSolution1.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}
